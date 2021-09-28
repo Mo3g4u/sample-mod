@@ -1,3 +1,3 @@
-module github.com/Mo3g4u/go-sample-mod
+module github.com/Mo3g4u/sample-mod
 
 go 1.16
