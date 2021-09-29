@@ -1,10 +1,8 @@
 package data
 
-var (
-	dataList = map[string]string{}
-)
+var ModCount uint
 
-func SetData(k, v string) map[string]string {
-	dataList[k] = v
-	return dataList
+func CountUp() uint {
+	ModCount++
+	return ModCount
 }
